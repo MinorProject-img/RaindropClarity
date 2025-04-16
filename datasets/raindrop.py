@@ -28,7 +28,7 @@ class RainDrop:
     def get_loaders(self, parse_patches=True, validation='raindrop'):
         print("=> evaluating raindrop test set...")
         train_dataset = RainDropDataset(
-                    dir="/content/drive/MyDrive/ml project data/DayRainDrop_Train/DayRainDrop_Train",
+                    dir="/content/drive/MyDrive/ml project data/DayRainDrop_Train/DayRainDrop_Train/",
                     n=self.config.training.patch_n,
                     patch_size=self.config.data.image_size,
                     transforms=self.transforms,
@@ -37,7 +37,7 @@ class RainDrop:
             )
 
         val_dataset = RainDropDataset(
-                dir="/content/drive/MyDrive/ml project data/RainDrop_Valid-20250218T162702Z-001/RainDrop_Valid",
+                dir="/content/drive/MyDrive/ml project data/RainDrop_Valid-20250218T162702Z-001/RainDrop_Valid/",
                 n=self.config.training.patch_n,
                 patch_size=self.config.data.image_size,
                 transforms=self.transforms,
