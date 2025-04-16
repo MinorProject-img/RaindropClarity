@@ -5,7 +5,7 @@ data:
     image_size: 128 # IDT, restormer
     channels: 3
     num_workers: 8
-    data_dir: "/content/drive/MyDrive/ml project data/"
+    data_dir: "/content/drive/MyDrive/ml project data/NightRainDrop_Train/DayRainDrop_Train/"
     conditional: True
 
 model:
