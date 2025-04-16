@@ -17,7 +17,7 @@ def parse_args_and_config():
     parser = argparse.ArgumentParser(description='Restoring Raindrop Clarity with restormer')
     parser.add_argument("--config", type=str, default='nighttime_128.yml',
                         help="Path to the config file")
-    parser.add_argument('--resume', default='/home1/yeying/release/RDiffusion/Param/NightRaindrop/restormer/epoch100.pth.tar', type=str,
+    parser.add_argument('--resume', default='TrainModel/night/epoch100.pth', type=str,
                         help='Path for the model checkpoint to load for evaluation')
     parser.add_argument("--grid_r", type=int, default=16,
                         help="Grid cell width r that defines the overlap between patches")
