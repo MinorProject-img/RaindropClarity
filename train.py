@@ -21,7 +21,7 @@ from models import DenoisingDiffusion
 
 def parse_args_and_config():
     parser = argparse.ArgumentParser(description='Training Raindrop Clarity with Patch-Based Denoising Diffusion Models')
-    parser.add_argument("--config", type=str, default='nighttime_64.yml',
+    parser.add_argument("--config", type=str, default='nighttime_128.yml',
                         help="Path to the config file")
     parser.add_argument('--resume', default='', type=str,
                         help='Path for checkpoint to load and resume')
