@@ -5,7 +5,7 @@ data:
     image_size: 128 # IDT, restormer
     channels: 3
     num_workers: 8
-    data_dir: "/home1/yeying/release/DayRainDrop/"
+    data_dir: "/content/drive/MyDrive/ml project data/RainDrop_Valid-20250218T162702Z-001/"
     conditional: True
 
 model:
